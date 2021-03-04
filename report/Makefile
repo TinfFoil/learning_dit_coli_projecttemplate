@@ -1,7 +1,7 @@
 all:
-	pdflatex coli2020.tex
-	pdflatex coli2020.tex
+	pdflatex ditcoli_projecttemplate.tex
+	pdflatex ditcoli_projecttemplate.tex
 view:
-	okular coling20.pdf
+	okular ditcoli_projecttemplate.pdf
 clean:
 	rm -rf *.{aux,bbl,blg,out,log}
